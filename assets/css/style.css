@@ -965,229 +965,6 @@ button.btn-md:hover {
     background: #fff;
 }
 
-/*========================================================================
-                    Study Section Css
-==========================================================================*/
-.study{
-    background: #f4f5f9;
-}
-.main_study_area{
-    overflow: hidden;
-}
-.slick-active{
-    outline: none;
-}
-.single_study_text{
-    background: #fff;
-    position: absolute;
-    right:-15%;
-    top:85px;
-    width:100%;
-    z-index: 9;
-    padding: 10% 20%;
-}
-.single_study_text .s_study_icon{
-    background: #3aa0ff;
-    width:60px;
-    height: 60px;
-    line-height: 60px;
-    color:#fff;
-    transform: rotate(45deg);
-    margin: 30px auto;
-}
-.single_study_text .s_study_icon i{
-    transform: rotate(-45deg);
-}
-.single_study_right_img{
-    position: relative;
-}
-
-
-/*=====================================================================
-                    counter section css
-=======================================================================*/
-.counter{
-    background: url(../images/counterbg.jpg) no-repeat top center;
-    background-size: cover;
-}
-.counter .main_counter_area{
-    padding:80px 20px;
-}
-
-.main_counter_area .single_counter h2{
-    color:#fff;
-    font-size:2.8125rem;
-}
-.main_counter_area .single_counter i{
-    color: #fff;
-    font-size: 1.875rem;
-    display: inline-block;
-    border: 1px solid #fff;
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
-    border-radius: 50%;
-    margin-bottom: 30px;
-    margin-top: 20px;
-}
-.main_counter_area .single_counter h4{
-    color:#fff;
-    font-size:0.8125rem;
-    text-transform: lowercase;
-}
-
-/* Pricing2 Section */
-
-.main_pricing_area{
-    overflow: hidden;
-}
-
-.single_pricing{
-    text-align: center;
-    margin-top: 20px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-    -ms-transition: all 0.35s ease-in-out;
-}
-.single_pricing:hover{
-    box-shadow: 0px 1px 10px 1px #ccc;
-
-}
-.pricing_business .pricing_head{
-    background:#3aa0ff;
-}
-.pricing_business .pricing_head .p_r{
-    color:#3aa0ff;
-}
-.pricing_business .pricing_head h3{
-    color:#fff;
-}
-.pricing_business .btn-md{
-    background: #3aa0ff;
-}
-
-
-.pricing_head{
-    padding: 30px 0px;
-    background: #999999;
-    position: relative;
-    height: 200px;  
-}
-.pricing_head h3{
-    text-transform:uppercase;
-    color:#fff;
-    font-size:24px;
-}
-.pricing_head .pricing_price{
-    background: #fff;
-    position: absolute;
-    left: 30%;
-    bottom: -30%;
-    width: 150px;
-    height: 150px;
-    margin:0 auto;
-    padding: 30px 0px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 0px 10px rgba(244,245,249,0.3);
-}
-.pricing_head .pricing_price .p_r{
-    font-family: 'source_sans_probold';
-    font-size:2.822rem;
-}
-.pricing_head .pricing_price .m_t{
-    font-family: 'source_sans_proregular';
-    font-size:0.941rem;
-}
-.pricing_body{
-    background: #f4f5f9;
-    padding: 80px 0px 30px 0px;
-}
-.single_pricing ul{
-
-
-}
-.single_pricing ul li{
-    line-height:45px;
-    height:45px;
-    font-size:18px;
-    font-family: 'open_sanssemibold';
-}
-
-.single_pricing a{
-    margin-top:30px;
-}
-
-
-
-/*video section css*/
-
-/*.video{
-    background: url(../images/videobg.jpg) no-repeat top center;
-    background-size:cover;
-}
-.video .main_video{
-    padding: 220px 0px 160px 0px;
-    overflow: hidden;
-}
-.video .icon{}
-.video .icon h3{
-    color:#fff;
-    margin-top:30px;
-    margin-bottom: 0px;
-}*/
-
-
-/*about section css*/
-
-
-
-
-
-/
-
-
-/* Carousel */
-.testimonial{
-    background: url(../images/testbg.jpg) no-repeat center center;
-    background-size: cover;
-}
-.main_testimonial {
-    color:#fff;
-}
-.main_testimonial .single_testimonial i{
-    color:#fff;
-    margin-bottom:30px;
-    font-size:2rem;
-    padding: 2px;
-}
-.main_testimonial .single_testimonial p{
-    color:#fff;
-    letter-spacing: .03rem;
-}
-.main_testimonial .single_testimonial .single_test_author{
-    margin-bottom:40px;
-    display: inline-block;
-}
-.main_testimonial .single_testimonial .single_test_author h4{
-    color:#fff;
-    margin-bottom:0px;
-    font-size:1rem;
-}
-.main_testimonial .single_testimonial .single_test_author h4 span{
-    font-family: 'ralewayregular'; 
-}
-.main_testimonial .single_testimonial .single_test_author p{
-    color:#fff;
-}
-
-.main_testimonial .owl-theme .owl-dots .owl-dot span {
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
-    transform: rotate(0deg);
-}
 
 
 
@@ -1200,7 +977,7 @@ button.btn-md:hover {
 
 
 .main_blog_content .single_blog_area .single_blog_text{
-    background: #e74e3e;
+    background: #3b84d9;
     padding: 70px 30px 70px 50px;
     position: relative;
 }
@@ -1212,7 +989,7 @@ button.btn-md:hover {
     width: 0;
     height: 0;
     border-top: 30px solid transparent;
-    border-right: 30px solid #e74e3e;;
+    border-right: 30px solid #3b84d9;;
     border-bottom: 30px solid transparent;
 }
 .main_blog_content .single_blog_area .single_blog_text.s_b_right:after{
@@ -1224,7 +1001,7 @@ button.btn-md:hover {
     width: 0;
     height: 0;
     border-top: 30px solid transparent;
-    border-left: 30px solid #e74e3e;;
+    border-left: 30px solid #3b84d9;;
     border-bottom: 30px solid transparent;
 }
 .main_blog_content .single_blog_area .single_blog_text a.read_more{
@@ -1250,7 +1027,7 @@ button.btn-md:hover {
     box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.01);
 }
 .contact_info_content h3{
-    color:#e74e3e;
+    color:#3b84d9;
     font-family: 'source_sans_prosemibold';
     margin-bottom: 19px;
 }
@@ -1421,13 +1198,13 @@ button.btn-md:hover {
 /*-- Card Backgrounds --*/
 .one .thumb {background-image: url('https://cdn.shopify.com/s/files/1/1330/6287/products/4dd09980-6ddc-4cf1-a254-8e3ae0db40e0_fb4f375d-dc1f-4894-afcb-bcbb3a6e7867_675x.progressive.jpg?v=1561672962');}
 .two .thumb {background-image: url('https://www.salomon.com/sites/default/files/products-images/900x900-G/n-qst-106__L40853900.jpg');}
-.three .thumb {background-image: url('');}
-.four .thumb {background-image: url('');}
-.five .thumb {background-image: url('');}
-.six .thumb {background-image: url('');}
-.seven .thumb {background-image: url('');}
-.eight .thumb {background-image: url('');}
-.nine .thumb {background-image: url('');}
+.three .thumb {background-image: url('https://i.pinimg.com/originals/66/6f/f7/666ff7e97ac61081dcda549178536e9e.jpg');}
+.four .thumb {background-image: url('https://i.pinimg.com/originals/d8/07/0e/d8070ea49e3502bba739d2785eb0cf40.jpg');}
+.five .thumb {background-image: url('https://ak1.ostkcdn.com/images/products/19671218/Womens-Touchscreen-Ski-and-Snowboarding-Mittens-with-Zippered-71f8fd5d-6b40-491a-88d2-cbe91763077a_600.jpg?impolicy=medium');}
+.six .thumb {background-image: url('https://m.media-amazon.com/images/I/415zJHoK1FL.jpg');}
+.seven .thumb {background-image: url('https://www.salomon.com/sites/default/files/products-images/900x900-G/max-buri-pro__L41154200.jpg');}
+.eight .thumb {background-image: url('https://cdn.shopify.com/s/files/1/1202/7032/products/Fuel-Optics-Blue.jpg?v=1477348179');}
+.nine .thumb {background-image: url('https://cdn.shopify.com/s/files/1/1922/2381/products/1500_US_.psd2_2000x.jpg?v=1574303542');}
 
 /*----*/
 .card-content {
